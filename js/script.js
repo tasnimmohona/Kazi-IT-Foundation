@@ -1,3 +1,14 @@
+//preloader
+$(window).on("load", function() {
+
+
+    $(".preloader").fadeOut();
+});
+
+
+
+
+
 //humberger toogler
 $(document).ready(function() {
 

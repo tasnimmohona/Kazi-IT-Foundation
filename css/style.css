@@ -10,57 +10,96 @@
 	preloader
 	=============================================== */
 
-.preloader {
-	width: 120px;
-	height: 120px;
-	background: linear-gradient(-45deg, #fc0647, #ff5353, #F35E36);
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	animation: rotation 4s ease-in-out infinite;
-}
 
-@keyframes rotation {
-	0% {
-		border-radius: 5% 5% 5% 5%;
-		transform: translate(-50%, -50%) rotate(0deg)
+	.preloader {
+		position: fixed;
+		background-color:black;
+		width: 100vw;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: 99999;
+		padding: 100px 0px;
 	}
-	12.5% {
-		border-radius: 50% 5% 5% 5%;
-		transform: translate(-50%, -50%) rotate(45deg);
+	
+	.preloader ul {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
 	}
-	25% {
-		border-radius: 50% 50% 5% 5%;
-		transform: translate(-50%, -50%) rotate(90deg);
+	
+	.preloader ul li {
+		width: 10px;
+		height: 35px;
+		background: -webkit-linear-gradient(#FF8803, #E73766, #F05345, #F35E36);
+		display: inline-block;
+		margin: 0 5px;
+		animation: animate 1s infinite
 	}
-	37.5% {
-		border-radius: 50% 50% 50% 5%;
-		transform: translate(-50%, -50%) rotate(135deg);
+	
+	@keyframes animate {
+		0% {
+			transform: scaleY(1);
+			-webkit-transform: scaleY(1);
+			-moz-transform: scaleY(1);
+			-ms-transform: scaleY(1);
+			-o-transform: scaleY(1);
+		}
+		25% {
+			transform: scaleY(1);
+			-webkit-transform: scaleY(1);
+			-moz-transform: scaleY(1);
+			-ms-transform: scaleY(1);
+			-o-transform: scaleY(1);
+		}
+		50% {
+			transform: scaleY(1);
+			-webkit-transform: scaleY(1);
+			-moz-transform: scaleY(1);
+			-ms-transform: scaleY(1);
+			-o-transform: scaleY(1);
+		}
+		75% {
+			transform: scaleY(1);
+			-webkit-transform: scaleY(1);
+			-moz-transform: scaleY(1);
+			-ms-transform: scaleY(1);
+			-o-transform: scaleY(1);
+		}
+		100% {
+			transform: scaleY(2);
+			-webkit-transform: scaleY(2);
+			-moz-transform: scaleY(2);
+			-ms-transform: scaleY(2);
+			-o-transform: scaleY(2);
+		}
 	}
-	50% {
-		border-radius: 50% 50% 50% 50%;
-		transform: translate(-50%, -50%) rotate(180deg);
+	
+	.preloader ul li:nth-child(1) {
+		animation-delay: .1s;
 	}
-	62.5% {
-		border-radius: 5% 50% 50% 50%;
-		transform: translate(-50%, -50%) rotate(225deg);
+	
+	.preloader ul li:nth-child(2) {
+		animation-delay: .2s;
 	}
-	75% {
-		border-radius: 5% 5% 50% 50%;
-		transform: translate(-50%, -50%) rotate(270deg);
+	
+	.preloader ul li:nth-child(3) {
+		animation-delay: .3s;
 	}
-	87.5% {
-		border-radius: 5% 5% 5% 50%;
-		transform: translate(-50%, -50%) rotate(315deg);
+	
+	.preloader ul li:nth-child(4) {
+		animation-delay: .4s;
 	}
-	100% {
-		border-radius: 5% 5% 5% 5%;
-		transform: translate(-50%, -50%) rotate(360deg);
+	
+	.preloader ul li:nth-child(5) {
+		animation-delay: .5s;
 	}
-}
-
-
+	
 /*============================================
 	scrollbar
 	=============================================== */
