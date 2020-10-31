@@ -7,8 +7,6 @@ $(window).on("load", function() {
 
 
 
-
-
 //humberger toogler
 $(document).ready(function() {
 
