@@ -1,0 +1,221 @@
+/*============================================
+	               mobile navbar 
+=============================================== */
+
+@media (max-width:992px) {
+	.navbar {
+		background-color: #212529!important;
+		box-shadow: 2px 2px 3px gray;
+	}
+	.nav-item a:not(.dropdown-toggle):hover::after {
+		width: 0%;
+	}
+	.navbar .navbar-nav .nav-link,
+	.navbar .navbar-nav .nav-link:active,
+	.navbar .navbar-nav .active>.nav-link {
+		color: white!important;
+	}
+}
+
+
+/*============================================
+  background
+=============================================== */
+
+@media only screen and (min-width:200px) and (max-width: 780px) {
+
+	.carousel-control-prev,
+	.carousel-control-next {
+		height: 40px;
+		width: 50px;
+		top: 93%;
+	}
+	.carousel-item .one {
+		padding-top: 280px;
+		padding-bottom: 290px;
+	}
+	.carousel-item .two {
+		padding-top: 280px;
+		padding-bottom: 290px;
+	}
+	.carousel-item .three {
+		padding-top: 280px;
+		padding-bottom: 290px;
+	}
+	/*background bottom*/
+	.bgbottom-text i {
+		font-size: 26px;
+		padding: 3px 10px;
+	}
+	.bgbottom-text h3 {
+		font-size: 1.5rem;
+	}
+	.bgbottom-text p {
+		font-size: 1rem;
+	}
+	/*carousel caption*/
+	.carousel-caption1 {
+		padding-top: 240px;
+	}
+	.carousel-caption1 h1 {
+		font-size: 1.8rem;
+	}
+	.carousel-caption1 h3 {
+		font-size: 1.4rem;
+	}
+	.carousel-caption1 p {
+		font-size: 1rem;
+	}
+	/*============================================
+   common-header
+===============================================*/
+	.common-header {
+		margin-bottom: 60px;
+	}
+	.common-header h3 {
+		font-size: 1.5rem;
+	}
+	/*============================================
+  about
+===============================================*/
+	#about {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.service-content h5 {
+		font-size: 1.2rem;
+	}
+	.service-content p {
+		font-size: 1rem;
+	}
+	/*============================================
+         product
+===============================================*/
+	#product {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.feature-content {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.feature-text p {
+		font-size: 1rem;
+	}
+	.feature-text span i {
+		font-size: 13px;
+		margin-bottom: 12px;
+	}
+	.feature-text {
+		margin-top: 28px;
+	}
+	.button-career {
+		font-size: 18px;
+		padding: 6px;
+		width: 148px;
+	}
+	/*============================================
+         Team
+===============================================*/
+	#team {
+		padding-top: 65px;
+		padding-bottom: 85px;
+	}
+	/*============================================
+         Testimonial
+===============================================*/
+	#testimonial {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.test-text span {
+		font-size: 1rem;
+	}
+	/*============================================
+         footer
+===============================================*/
+	#footer {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.footer-left {
+		margin-bottom: 30px;
+	}
+	.footer-left h5,
+	.footer-right h5 {
+		font-size: 1.3rem;
+		margin-top: 30px;
+	}
+	.footer-left p,
+	.footer-right p {
+		font-size: 1rem;
+	}
+	.footer-hr {
+		width: 70%;
+	}
+	/* ============================================
+	copyright
+	=============================================== */
+	.copyright-text {
+		color: white;
+		font-size: 0.9rem;
+	}
+	.scrollup {
+		font-size: 18px;
+		bottom: 140px;
+		padding: 6px 12px;
+	}
+	#about-us p {
+		font-size: 1rem;
+	}
+	/* ============================================
+appointment
+	=============================================== */
+	#body_header h1 {
+		font-size: 1.5rem;
+	}
+	#body_header p {
+		font-size: 1rem;
+	}
+	/*============================================
+         career
+===============================================*/
+	.career-main {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.button-career {
+		font-size: 18px;
+		padding: 6px;
+		width: 148px;
+		margin-top: 10%;
+		margin-bottom: 12%;
+	}
+	.text-left h5 {
+		font-size: 1.2rem;
+	}
+	.text-left h2 {
+		font-size: 1.5rem;
+	}
+	/*============================================
+         contact-us
+===============================================*/
+	#contact-Us p {
+		font-size: 1rem;
+	}
+	#contact-left {
+		margin-bottom: 80px;
+	}
+}
+
+@media only screen and (min-width:781px) and (max-width: 1000px) {
+	.carousel-caption1 h1 {
+		font-size: 1.8rem;
+	}
+	.carousel-caption1 h3 {
+		font-size: 1.6rem;
+	}
+	.carousel-caption1 p {
+		font-size: 1.2rem;
+	}
+}
